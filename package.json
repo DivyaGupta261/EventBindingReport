@@ -1,0 +1,27 @@
+{
+  "name": "eventbindingreport",
+  "version": "1.0.0",
+  "description": "creates a report of all the event bindings in the code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js;",
+    "server": "python -m SimpleHTTPServer"
+  },
+  "author": "Divya Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "json-formatter-js": "^1.2.0",
+    "c3": "^0.4.11",
+    "grepr" : "2.1.0",
+    "readline-specific" : "1.0.4",
+    "fs":"0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [
+    "event"
+  ]
+}
